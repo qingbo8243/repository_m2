@@ -1,0 +1,6 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Tue Dec 01 14:31:35 CST 2015
+maven-shared-utils-0.1.jar>nexus=
+maven-shared-utils-0.1.pom>nexus=
+maven-shared-utils-0.1.jar>central=
+maven-shared-utils-0.1.pom>central=

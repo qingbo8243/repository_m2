@@ -1,0 +1,4 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Mon Oct 27 22:42:41 CST 2014
+http\://localhost\:8081/nexus/content/groups/public/.error=Could not transfer artifact org.apache.maven.plugins\:maven-resources-plugin\:pom\:2.6 from/to nexus (http\://localhost\:8081/nexus/content/groups/public/)\: Connection reset
+default-http\://localhost\:8081/nexus/content/groups/public/.lastUpdated=1414420961580
