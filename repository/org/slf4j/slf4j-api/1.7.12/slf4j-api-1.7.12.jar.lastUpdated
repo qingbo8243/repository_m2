@@ -1,0 +1,4 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Fri Nov 17 23:08:59 CST 2017
+http\://localhost\:8081/repository/maven-public/.error=Could not transfer artifact org.slf4j\:slf4j-api\:jar\:1.7.12 from/to nexus (http\://localhost\:8081/repository/maven-public/)\: Failed to transfer file\: http\://localhost\:8081/repository/maven-public/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.jar. Return code is\: 500 , ReasonPhrase\:javax.servlet.ServletException\: org.sonatype.nexus.blobstore.api.BlobStoreException\: java.net.SocketTimeoutException\: Read timed out.
+@default-nexus-http\://localhost\:8081/repository/maven-public/.lastUpdated=1510931339830

@@ -4,15 +4,17 @@
           xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
 
 
+    <!--用于替代某仓库地址，比如某仓库地址因网络故障等访问不通时，则会使用替代的镜像地址。主要用mirrorOf标签去指定要替换的仓库（通过仓库id标签），如果是*表示替代所有仓库-->
     <mirrors>
         <mirror>
             <id>nexus</id>
             <mirrorOf>*</mirrorOf>
             <name>Nexus</name>
-            <url>http://localhost:8081/nexus/content/groups/public/</url>
+            <url>http://localhost:8081/repository/maven-public/</url>
         </mirror>
     </mirrors>
-    
+
+
     <profiles>
         <profile>
             <id>nexus</id>
@@ -20,7 +22,7 @@
                 <repository>
                     <id>nexus</id>
                     <name>Nexus</name>
-                    <url>http://localhost:8081/nexus/content/groups/public/</url>
+                    <url>http://localhost:8081/repository/maven-public/</url>
                     <releases>
                         <enabled>true</enabled>
                     </releases>
@@ -33,7 +35,7 @@
                 <pluginRepository>
                     <id>nexus</id>
                     <name>Nexus</name>
-                    <url>http://localhost:8081/nexus/content/groups/public/</url>
+                    <url>http://localhost:8081/repository/maven-public/</url>
                     <releases>
                         <enabled>true</enabled>
                     </releases>
@@ -44,6 +46,7 @@
             </pluginRepositories>
         </profile>
     </profiles>
+    <!--激活上面的profile的配置-->
     <activeProfiles>
         <activeProfile>nexus</activeProfile>
     </activeProfiles>

@@ -1,0 +1,11 @@
+# ºöÂÔ*.classÎÄ¼ş
+*.class
+#*.lock
+
+# ºöÂÔgradleÄ¿Â¼
+build/
+target/
+classes/
+tlearning/
+itsm/
+*.war
